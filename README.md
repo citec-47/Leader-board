@@ -77,7 +77,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone[(https://github.com/MarwanDev/leaderboard.git)]
+  git clone[(https://github.com/citec-47/Leader-board.git)]
 ```
 
 ## Usage
