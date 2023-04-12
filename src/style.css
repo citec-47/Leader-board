@@ -1,132 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
-
 * {
-  padding: 0;
   margin: 0;
-  overflow: hidden;
-}
-
-body {
-  font-family: "Oswald", sans-serif;
-  background-image: linear-gradient(to left, #03cafc, rgb(1, 102, 197));
+  padding: 0;
 }
 
 h1 {
-  margin: 20px;
-  position: absolute;
-  font-size: 40px;
-  color: #fff;
-  text-align: center;
-  text-shadow: 2px 2px 4px #000;
-  letter-spacing: 2px;
-  user-select: none;
-}
-
-.main-container {
-  margin-top: 50px;
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 70px 0;
-}
-
-.container-two {
-  background: #fff;
-  width: 65%;
-  height: 400px;
-  display: flex;
-  border-radius: 5px;
-  flex-direction: row;
-  justify-content: space-between;
-  box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
-  position: relative;
-}
-
-.mini-container {
-  width: 45%;
-  height: 100%;
-  padding: 15px;
-  z-index: 2;
-}
-
-.recent-Data-score {
-  display: flex;
-  justify-content: space-between;
-}
-
-#refreshBrowser,
-#buttn {
-  width: 110px;
-  height: 40px;
-  background: blue;
-  margin-right: 30px;
-  font-weight: 600;
-  font-size: 17px;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.score-Data-records {
   width: 90%;
-  height: 270px;
-  margin-top: 40px;
-  border: 2px solid #000;
-  border-radius: 5px;
-  overflow: auto;
-  overflow-x: hidden;
+  font-size: 3.5rem;
+  margin: 3rem auto 0;
 }
 
-.my-record {
-  width: 100%;
-  background: #fff;
-  padding: 5px;
-  margin: 3px 0;
+main {
+  display: flex;
 }
 
-.input-List-data * {
-  margin-bottom: 15px;
+.sectA {
+  width: 40%;
+  margin: 3rem auto;
 }
 
-#input-Data,
-#input-Datas {
-  width: 85%;
-  padding: 8px;
-  border-radius: 5px;
-  border: 2px solid #000;
+div {
+  display: flex;
+  justify-content: space-between;
 }
 
 h2 {
-  font-size: 30px;
+  margin: 2rem 0;
+  font-size: 2rem;
 }
 
-@media screen and (max-width: 1072px) {
-  .container-two {
-    height: 450px;
-  }
+#refresh-Browser {
+  margin: 2rem 0;
+  padding: 0.5rem;
 }
 
-@media screen and (max-width: 768px) {
-  * {
-    overflow: auto;
-    overflow-x: hidden;
-  }
+table {
+  width: 100%;
+  border: 3px solid black;
+  border-collapse: collapse;
+}
 
-  .container {
-    width: 95%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-  }
+tr:nth-child(even) {
+  background-color: rgb(180, 176, 176);
+}
 
-  .mini-container {
-    width: 95%;
-    margin-left: 10%;
-  }
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectB {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  border: 3px solid black;
+  margin-bottom: 1rem;
+}
+
+#submit {
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  align-self: flex-end;
+  margin-right: 3%;
+}
+
+button {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0);
 }
