@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <section>
+        <h1>Leaderboard</h1>
+        <div class="main-container">
+            <div class="container-two">
+                <div class="mini-container">
+                    <div class="recent-Data-score">
+                        <h2>Recent scores</h2>
+                        <button type='button' id="refreshBrowser">Refresh</button>
+                    </div>
+                    <ul class="score-Data-records" id="Data-list-holder"></ul>
+                </div>
+
+                <div class="mini-container">
+                    <div class="input-List-data">
+                        <h2>Add your scores</h2>
+                        <input type="text" placeholder="Name" id="input-Data" maxlength="30" required />
+                        <br />
+                        <input type="number" placeholder="Score" id="input-Datas" required />
+                        <br />
+                        <button type='button' id="buttn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

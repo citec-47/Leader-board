@@ -1,0 +1,36 @@
+{
+  "name": "leader-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/citec-47/Leader-board.git"
+  },
+  "keywords": [],
+  "author": "Ndonyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/citec-47/Leader-board/issues"
+  },
+  "homepage": "https://github.com/citec-47/Leader-board/blob/main/README.md",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css": "^3.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
