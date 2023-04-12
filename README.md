@@ -28,6 +28,14 @@ HTML, CSS and JavaScript Leaderboard Project
 ## 🛠 Built With  <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li>Html</li>
+    <li>Css</li>
+    <li>JavaScript</li>
+  </ul>
+</details>
 
   <summary>Javascript runtime environment</summary>
   <ul>
