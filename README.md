@@ -94,87 +94,6 @@ Run Dev Server (Port 3000)
 npm run build
 ```
 
-### Set Up Linters
-## Define Linters
-A linter is a tool to help you improve your code. You can learn more about Linters here: (source: (<https://www.testim.io/blog/what-is-a-linter-heres-a-definition-and-quick-start-guide/>)).
-
-Advantages of Linting:
-
-1. Fewer errors in production- The use of linters helps to diagnose and fix technical issues such as code smells. As a result, fewer defects make their way to production.
-2. Achieving a more readable and consistent style, through the enforcement of its rules.
-3. Having more secure and performant code.
-4. Having an objective and measurable assessment of code quality.
-5. Having fewer discussions about code style and aesthetic choices during code reviews.
-
-## Install Linters 
-You can find linters for most of the programming languages, e.g. Rubocop for Ruby or ESLint for JavaScript.
-
-Also, there are many ways you can integrate a linter in your workflow:
-
--text editor plugin
--GitHub Actions
--GitHub apps
-
-## Set up Linters
-**Note:** The npm package manager is going to create a node_modules directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a .gitignore file and add node_modules to it:
-
-# .gitignore
-node_modules/
-
-## ESLint 
-Run 
-```
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-```
-
-## Web Hint 
-This is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors.
-
-**NOTE:** If you are using Windows, make sure you initialize npm to create `package.json` file. 
-   ```
-   npm init -y
-   ```
-
-1. Run
-   ```
-   npm install --save-dev hint@7.x
-   ```
-   *how to use npm: (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
-   ```
-   npx hint .
-   ```
-   [Copy contents of .eslintrc.json to the root directory of your project](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.eslintrc.json)
-5. Fix validation errors.
-
-### [Stylelint](https://stylelint.io/)
-
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-
-1. Run
-
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-not sure how to use npm? Read this.
-
-2. Copy .stylelintrc.json to the root directory of your project.
-
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-
-If you think that change is necessary - open a Pull Request in this repository and let your code reviewer know about it.
-4. Run npx stylelint "**/*.{css,scss}" on the root of your directory of your project.
-
-5. Fix linter errors.
-
-6. **IMPORTANT NOTE:** feel free to research auto-correct options for Stylelint if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
-
-### Making Your HTML Using Medium-fidelity wireframes
--Make sure to use a design that is similar to the Medium-fidelity wireframes to present your website
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -209,24 +128,8 @@ If you like this project, kindly leave a comment below and share it with someone
 ## 🙏 Acknowledgments <a name="Microverse Inc."></a>
 
 I'm thankful to Microverse for providing a study platform which guided me through this project and to my coding partners at Microverse for the collaborative effort. 
-
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Question_1]**
-What is a medium-fidelity wireframe?
-
-  - Medium-fidelity wireframes present how your website's elements should be arranged, but they skip detailed information about aesthetics (e.g., colors, images). They can assist with communicating to teams how aesthetic features can support essential functionalities. Please read <a href="https://mentormate.com/blog/low-fidelity-wireframes-vs-high-fidelity-wireframes/" >Low Fidelity Wireframes vs High Fidelity Wireframes </a> to fully understand the difference between low-, medium-, and high-fidelity wireframes.
-
-- **[Question_2]**
-Where can I download node JS for installation?
-
-  - Node Js can be downloaded here- <ul>
-    <li><a href="https://nodejs.org/en/download/"> Node JS </a></li>
-  </ul>
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/citec-47/Leader-board/blob/leader-board/LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to the top</a>)</p>
