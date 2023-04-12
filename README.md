@@ -94,26 +94,6 @@ Run Dev Server (Port 3000)
 npm run build
 ```
 
-### Set Up Linters
-## Define Linters
-A linter is a tool to help you improve your code. You can learn more about Linters here: (source: (<https://www.testim.io/blog/what-is-a-linter-heres-a-definition-and-quick-start-guide/>)).
-
-Advantages of Linting:
-
-1. Fewer errors in production- The use of linters helps to diagnose and fix technical issues such as code smells. As a result, fewer defects make their way to production.
-2. Achieving a more readable and consistent style, through the enforcement of its rules.
-3. Having more secure and performant code.
-4. Having an objective and measurable assessment of code quality.
-5. Having fewer discussions about code style and aesthetic choices during code reviews.
-
-## Install Linters 
-You can find linters for most of the programming languages, e.g. Rubocop for Ruby or ESLint for JavaScript.
-
-Also, there are many ways you can integrate a linter in your workflow:
-
--text editor plugin
--GitHub Actions
--GitHub apps
 
 ## 👥 Authors <a name="authors"></a>
 
