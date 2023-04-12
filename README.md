@@ -128,22 +128,6 @@ If you like this project, kindly leave a comment below and share it with someone
 ## 🙏 Acknowledgments <a name="Microverse Inc."></a>
 
 I'm thankful to Microverse for providing a study platform which guided me through this project and to my coding partners at Microverse for the collaborative effort. 
-
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Question_1]**
-What is a medium-fidelity wireframe?
-
-  - Medium-fidelity wireframes present how your website's elements should be arranged, but they skip detailed information about aesthetics (e.g., colors, images). They can assist with communicating to teams how aesthetic features can support essential functionalities. Please read <a href="https://mentormate.com/blog/low-fidelity-wireframes-vs-high-fidelity-wireframes/" >Low Fidelity Wireframes vs High Fidelity Wireframes </a> to fully understand the difference between low-, medium-, and high-fidelity wireframes.
-
-- **[Question_2]**
-Where can I download node JS for installation?
-
-  - Node Js can be downloaded here- <ul>
-    <li><a href="https://nodejs.org/en/download/"> Node JS </a></li>
-  </ul>
-
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/citec-47/Leader-board/blob/leader-board/LICENSE) licensed.
