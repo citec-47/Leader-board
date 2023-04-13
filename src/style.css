@@ -22,7 +22,7 @@ h1 {
   user-select: none;
 }
 
-.main-container {
+.main-container1 {
   margin-top: 50px;
   width: 100%;
   height: auto;
@@ -32,7 +32,7 @@ h1 {
   padding: 70px 0;
 }
 
-.container-two {
+.container-two2{
   background: #fff;
   width: 65%;
   height: 400px;
@@ -46,20 +46,20 @@ h1 {
   position: relative;
 }
 
-.mini-container {
+.mini-Container1 {
   width: 45%;
   height: 100%;
   padding: 15px;
   z-index: 2;
 }
 
-.recent-Data-score {
+.recentDatascore {
   display: flex;
   justify-content: space-between;
 }
 
-#refreshBrowser,
-#buttn {
+#refreshmyBrowser,
+#button {
   width: 110px;
   height: 40px;
   background: blue;
@@ -72,7 +72,7 @@ h1 {
   cursor: pointer;
 }
 
-.score-Data-records {
+.scoreDatarecords {
   width: 90%;
   height: 270px;
   margin-top: 40px;
@@ -82,19 +82,19 @@ h1 {
   overflow-x: hidden;
 }
 
-.my-record {
+.v-record {
   width: 100%;
   background: #fff;
   padding: 5px;
   margin: 3px 0;
 }
 
-.input-List-data * {
+.inputListdata * {
   margin-bottom: 15px;
 }
 
-#input-Data,
-#input-Datas {
+#inputData,
+#inputDatas {
   width: 85%;
   padding: 8px;
   border-radius: 5px;
@@ -106,7 +106,7 @@ h2 {
 }
 
 @media screen and (max-width: 1072px) {
-  .container-two {
+  .container-two2 {
     height: 450px;
   }
 }
@@ -125,7 +125,7 @@ h2 {
     height: auto;
   }
 
-  .mini-container {
+  .mini-Container1 {
     width: 95%;
     margin-left: 10%;
   }
