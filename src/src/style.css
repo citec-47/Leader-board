@@ -22,7 +22,7 @@ h1 {
   user-select: none;
 }
 
-.main-container {
+.big-container {
   margin-top: 50px;
   width: 100%;
   height: auto;
@@ -32,7 +32,7 @@ h1 {
   padding: 70px 0;
 }
 
-.man-container {
+.container {
   background: #fff;
   width: 65%;
   height: 400px;
@@ -43,23 +43,21 @@ h1 {
   box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
-  position: relative;
 }
 
-.medium-container {
+.small-container1 {
   width: 45%;
   height: 100%;
   padding: 15px;
-  z-index: 2;
 }
 
-.new-score {
+.recent-score {
   display: flex;
   justify-content: space-between;
 }
 
-#refreshBrowser,
-#buttn {
+#reff,
+#bttn {
   width: 110px;
   height: 40px;
   background: #03cafc;
@@ -72,7 +70,7 @@ h1 {
   cursor: pointer;
 }
 
-.score_My_records {
+.score-records {
   width: 90%;
   height: 270px;
   margin-top: 40px;
@@ -82,19 +80,19 @@ h1 {
   overflow-x: hidden;
 }
 
-.my_New_record {
+.my-record {
   width: 100%;
   background: #fff;
   padding: 5px;
   margin: 3px 0;
 }
 
-.inp * {
+.input-data * {
   margin-bottom: 15px;
 }
 
-#input_data,
-#input_datas {
+#input,
+#input1 {
   width: 85%;
   padding: 8px;
   border-radius: 5px;
@@ -105,19 +103,13 @@ h2 {
   font-size: 30px;
 }
 
-@media screen and (max-width: 1072px) {
-  .man-container {
-    height: 450px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   * {
     overflow: auto;
     overflow-x: hidden;
   }
 
-  .man-container {
+  .container {
     width: 95%;
     flex-direction: column;
     justify-content: center;
@@ -125,7 +117,7 @@ h2 {
     height: auto;
   }
 
-  .medium-container {
+  .small-container1 {
     width: 95%;
     margin-left: 10%;
   }

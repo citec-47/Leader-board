@@ -1,56 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Leaderboard</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
 </head>
+
 <body>
     <section>
         <h1>Leaderboard</h1>
-        <div class="main-container1">
-            <div class="container-two2">
-                <div class="mini-Container1">
-                    <div class="recentDatascore">
+        <div class="main-container">
+            <div class="man-container">
+                <div class="medium-container">
+                    <div class="new-score">
                         <h2>Recent scores</h2>
-                        <button type='button' id="refreshmyBrowser">Refresh</button>
+                        <button type='button' id="refreshBrowser">Refresh</button>
                     </div>
-                    <ul class="scoreDatarecords" id="DataListholder"></ul>
+                    <ul class="score_My_records" id="data_list"></ul>
                 </div>
 
-                <div class="mini-Container1">
-                    <div class="inputListdata">
+                <div class="medium-container">
+                    <div class="input_my_data">
                         <h2>Add your scores</h2>
-                        <input type="text" placeholder="Name" id="inputData" maxlength="30" required />
+                        <input type="text" placeholder="Name" id="input_data" maxlength="30" required />
                         <br />
-                        <input type="number" placeholder="Score" id="inputDatas" required />
+                        <input type="number" placeholder="Score" id="input_datas" required />
                         <br />
-                        <button type='button' id="button">Submit</button>
+                        <button type='button' id="buttn">Submit</button>
                     </div>
                 </div>
             </div>
         </div>
-    <h1>Leaderboard</h1>
-  <main> 
-    <section class="sectA">
-      <div>
-        <h2>Recent scores</h2>
-        <button id="refresh-Browser">Refresh</button>
-      </div>
-      <table id="my-score"></table>
     </section>
-
-    <section class="sectA">
-      <h2>Add your score</h2>
-      <form>
-        <input id="names-here" type="text" class="sectB"  placeholder="Your name here">
-        <input id="score-record" type="number" class="sectB" placeholder="Your score here">
-        <button id="submit">Submit</button>
-      </form>
-    </section>
-  </main>
-  <script type="module" src="index.js"></script>
 </body>
 </html>
