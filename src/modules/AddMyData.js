@@ -1,15 +1,15 @@
-const myUserData = document.getElementById('input-Data');
-const myScoreData = document.getElementById('input-Datas');
-const addNew = document.getElementById('buttn');
+const vanUserData = document.getElementById('inputData');
+const vanScoreData = document.getElementById('inputDatas');
+const vanAddNew = document.getElementById('button');
 
-const newAddData = async () => {
+const vanNewAddData = async () => {
   await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/NdonyiDataScore5431/scores',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ndonDataScore5431/scores',
     {
       method: 'POST',
       body: JSON.stringify({
-        user: myUserData.value,
-        score: myScoreData.value,
+        user: vanUserData.value,
+        score: vanScoreData.value,
       }),
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
@@ -17,8 +17,7 @@ const newAddData = async () => {
     },
   )
     .then((response) => response.json());
-  myUserData.value = '';
-  myScoreData.value = '';
+  vanUserData.value = '';
+  vanScoreData.value = '';
 };
-
-addNew.addEventListener('click', newAddData);
+vanAddNew.addEventListener('click', vanNewAddData);

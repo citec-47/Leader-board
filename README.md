@@ -57,12 +57,7 @@ HTML, CSS and JavaScript Leaderboard Project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🎥 Video Explanation <a name="video-explanation"></a>
-Coming soon!
-
 ## 🚀 Live Demo <a name="live-demo"></a>
-Coming Soon
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -141,7 +136,4 @@ I'm thankful to Microverse for providing a study platform which guided me throug
 This project is [MIT](https://github.com/citec-47/Leader-board/blob/leader-board/LICENSE) licensed.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <p align="right">(<a href="#readme-top">back to the top</a>)</p>
-
