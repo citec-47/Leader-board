@@ -59,6 +59,8 @@ HTML, CSS and JavaScript Leaderboard Project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link](https://citec-47.github.io/Leader-board/dist/)
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 Creating your first "Leaderboard" project
