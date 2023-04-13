@@ -1,14 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
-
 * {
-  padding: 0;
   margin: 0;
-  overflow: hidden;
-}
-
-body {
-  font-family: "Oswald", sans-serif;
-  background-image: linear-gradient(to left, #03cafc, rgb(1, 102, 197));
+  padding: 0;
 }
 
 h1 {
@@ -36,15 +28,15 @@ h1 {
   background: #fff;
   width: 65%;
   height: 400px;
-  display: flex;
-  border-radius: 5px;
-  flex-direction: row;
-  justify-content: space-between;
-  box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 80px -8px rgba(0, 0, 0, 0.75);
-  position: relative;
+  width: 90%;
+  font-size: 3.5rem;
+  margin: 3rem auto 0;
 }
+
+main {
+  display: flex;
+}
+
 
 .mini-Container1 {
   width: 45%;
@@ -54,6 +46,12 @@ h1 {
 }
 
 .recentDatascore {
+.sectA {
+  width: 40%;
+  margin: 3rem auto;
+}
+
+div {
   display: flex;
   justify-content: space-between;
 }
@@ -83,10 +81,20 @@ h1 {
 }
 
 .v-record {
+h2 {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+#refresh-Browser {
+  margin: 2rem 0;
+  padding: 0.5rem;
+}
+
+table {
   width: 100%;
-  background: #fff;
-  padding: 5px;
-  margin: 3px 0;
+  border: 3px solid black;
+  border-collapse: collapse;
 }
 
 .inputListdata * {
@@ -99,10 +107,21 @@ h1 {
   padding: 8px;
   border-radius: 5px;
   border: 2px solid #000;
+
+tr:nth-child(even) {
+  background-color: rgb(180, 176, 176);
 }
 
-h2 {
-  font-size: 30px;
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectB {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  border: 3px solid black;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 1072px) {
@@ -129,4 +148,14 @@ h2 {
     width: 95%;
     margin-left: 10%;
   }
+
+#submit {
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  align-self: flex-end;
+  margin-right: 3%;
+}
+
+button {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0);
 }

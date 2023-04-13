@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-        <%= htmlWebpackPlugin.options.title %>
-    </title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Leaderboard</title>
 </head>
-
 <body>
     <section>
         <h1>Leaderboard</h1>
@@ -35,6 +32,25 @@
                 </div>
             </div>
         </div>
+    <h1>Leaderboard</h1>
+  <main> 
+    <section class="sectA">
+      <div>
+        <h2>Recent scores</h2>
+        <button id="refresh-Browser">Refresh</button>
+      </div>
+      <table id="my-score"></table>
     </section>
+
+    <section class="sectA">
+      <h2>Add your score</h2>
+      <form>
+        <input id="names-here" type="text" class="sectB"  placeholder="Your name here">
+        <input id="score-record" type="number" class="sectB" placeholder="Your score here">
+        <button id="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <script type="module" src="index.js"></script>
 </body>
 </html>

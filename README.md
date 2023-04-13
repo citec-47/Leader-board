@@ -28,6 +28,14 @@ HTML, CSS and JavaScript Leaderboard Project
 ## 🛠 Built With  <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li>Html</li>
+    <li>Css</li>
+    <li>JavaScript</li>
+  </ul>
+</details>
 
   <summary>Javascript runtime environment</summary>
   <ul>
@@ -131,5 +139,11 @@ I'm thankful to Microverse for providing a study platform which guided me throug
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/citec-47/Leader-board/blob/leader-board/LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to the top</a>)</p>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to the top</a>)</p>
