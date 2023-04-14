@@ -4,7 +4,7 @@ const myAdd = document.getElementById('bttn');
 
 const myAddData = async () => {
   await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SyedAtrilDataScore5431/scores',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/branDataScore5431/scores',
     {
       method: 'POST',
       body: JSON.stringify({
