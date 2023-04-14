@@ -7,7 +7,7 @@ myRefresh.addEventListener('click', () => {
 
 const getData = async () => {
   await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/SyedAtrilDataScore5431/scores',
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/branDataScore5431/scores',
   )
     .then((response) => response.json())
     .then((data) => {
